@@ -1,0 +1,118 @@
+{
+    "persons": [
+        {
+            "firstName": "SID",
+            "lastName": "SMYTH",
+            "title": "MR",
+            "rawData": "SMYTH/SID MR"
+        },
+        {
+            "firstName": "SUEMS",
+            "lastName": "SMYTH",
+            "title": null,
+            "rawData": "SMYTH/SUEMS"
+        }
+    ],
+    "others": null,
+    "flightInfo": {
+        "flights": [
+            {
+                "company": {
+                    "iataCode": "BA",
+                    "description": "British Airways"
+                },
+                "departureTime": "2017-10-07 13:45:00",
+                "landingTime": "2017-10-07 15:15:00",
+                "departureAirport": {
+                    "iataCode": "EDI",
+                    "description": "Edinburgh Airport - Edinburgh, United Kingdom"
+                },
+                "flight": "1445",
+                "seatInfo": [],
+                "landingAirport": {
+                    "iataCode": "LHR",
+                    "description": "London Heathrow Airport - London, England, United Kingdom"
+                }
+            },
+            {
+                "company": {
+                    "iataCode": "BA",
+                    "description": "British Airways"
+                },
+                "departureTime": "2017-10-07 17:20:00",
+                "landingTime": "2017-10-07 18:50:00",
+                "departureAirport": {
+                    "iataCode": "LHR",
+                    "description": "London Heathrow Airport - London, England, United Kingdom"
+                },
+                "flight": "085",
+                "seatInfo": [],
+                "landingAirport": {
+                    "iataCode": "YVR",
+                    "description": "Vancouver International Airport - Vancouver, British Columbia, Canada"
+                }
+            },
+            {
+                "company": {
+                    "iataCode": "AA",
+                    "description": "American Airlines"
+                },
+                "departureTime": "2017-10-23 15:55:00",
+                "landingTime": "2017-10-23 17:43:00",
+                "departureAirport": {
+                    "iataCode": "MEM",
+                    "description": "Memphis International Airport - Memphis, Tennessee, United States"
+                },
+                "flight": "3466",
+                "seatInfo": [],
+                "landingAirport": {
+                    "iataCode": "ORD",
+                    "description": "O'Hare International Airport (formerly Orchard Depot Field) - Chicago, Illinois, United States"
+                }
+            },
+            {
+                "company": {
+                    "iataCode": "AA",
+                    "description": "American Airlines"
+                },
+                "departureTime": "2017-10-23 19:30:00",
+                "landingTime": "2017-10-24 09:05:00",
+                "departureAirport": {
+                    "iataCode": "ORD",
+                    "description": "O'Hare International Airport (formerly Orchard Depot Field) - Chicago, Illinois, United States"
+                },
+                "flight": "046",
+                "seatInfo": [],
+                "landingAirport": {
+                    "iataCode": "LHR",
+                    "description": "London Heathrow Airport - London, England, United Kingdom"
+                }
+            },
+            {
+                "company": {
+                    "iataCode": "AA",
+                    "description": "American Airlines"
+                },
+                "departureTime": "2017-10-24 11:40:00",
+                "landingTime": "2017-10-24 13:05:00",
+                "departureAirport": {
+                    "iataCode": "LHR",
+                    "description": "London Heathrow Airport - London, England, United Kingdom"
+                },
+                "flight": "6564",
+                "seatInfo": [],
+                "landingAirport": {
+                    "iataCode": "EDI",
+                    "description": "Edinburgh Airport - Edinburgh, United Kingdom"
+                }
+            }
+        ]
+    },
+    "hotelInfo": {
+        "hotels": []
+    },
+    "trainInfo": {
+        "trains": [],
+        "stationNames": {}
+    }
+}
