@@ -1,6 +1,6 @@
 {
     "name": "m1x0n/easy-pnr-api-php",
-    "description": "PHP API Client for EasyPNR (https://www.easypnr.com)",
+    "description": "PHP API Client for EasyPNR Decoder (https://www.easypnr.com)",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -10,10 +10,23 @@
         }
     ],
     "require": {
-	"php": ">=5.5",
+        "php": ">=5.5",
         "guzzlehttp/guzzle": "^6.2"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "EasyPNR\\": "src/EasyPNR/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "EasyPNR\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit --colors=always"
     }
 }
