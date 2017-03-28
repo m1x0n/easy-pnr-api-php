@@ -1,7 +1,7 @@
-easy-pnr-api-php
+easy-pnr-api-php [![Build Status](https://travis-ci.org/m1x0n/easy-pnr-api-php.svg?branch=master)](https://travis-ci.org/m1x0n/easy-pnr-api-php)
 ====
 
-PHP API Client for EasyPNR Decoder (https://www.easypnr.com)
+PHP API Client for EasyPNR Decoder: [https://www.easypnr.com](https://www.easypnr.com)
 
 ## Installation
 
