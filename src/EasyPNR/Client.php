@@ -1,6 +1,7 @@
 <?php
 
 namespace EasyPNR;
+use EasyPNR\Exceptions\Exception;
 
 /**
  * Class Client
@@ -93,7 +94,7 @@ final class Client
 
             return json_decode($response->getBody()->getContents(), true);
         } catch(\Exception $e) {
-            throw new Exception($e->getMessage());
+            throw ExceptionFactory::make($e);
         }
     }
 }

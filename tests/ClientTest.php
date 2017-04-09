@@ -33,7 +33,7 @@ class ClientTest extends TestCase
      */
     public function should_throw_an_exception_when_no_api_key_provided()
     {
-        $this->expectException(EasyPNR\Exception::class);
+        $this->expectException(EasyPNR\Exceptions\Exception::class);
         new EasyPNR\Client('');
     }
 
@@ -42,7 +42,7 @@ class ClientTest extends TestCase
      */
     public function should_throw_an_exception_when_invalid_version_provided()
     {
-        $this->expectException(EasyPNR\Exception::class);
+        $this->expectException(EasyPNR\Exceptions\Exception::class);
         new EasyPNR\Client(self::API_KEY, 5);
     }
 
@@ -67,7 +67,7 @@ class ClientTest extends TestCase
      */
     public function should_throw_an_exception_on_error_for_ping_request()
     {
-        $this->expectException(EasyPNR\Exception::class);
+        $this->expectException(EasyPNR\Exceptions\Exception::class);
 
         $client = new EasyPNR\Client(
             self::API_KEY,
@@ -101,7 +101,7 @@ class ClientTest extends TestCase
      */
     public function should_throw_an_exception_on_error_for_decode_request()
     {
-        $this->expectException(EasyPNR\Exception::class);
+        $this->expectException(EasyPNR\Exceptions\Exception::class);
 
         $client = new EasyPNR\Client(
             self::API_KEY,

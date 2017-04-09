@@ -22,7 +22,7 @@ require_once __DIR__ . '/../vendor/autoload.php';
 $apiKey = 'YOUR API KEY HERE';
 
 // Prepare your PNR data. See encoded.txt for more information
-$pnrSample = file_get_contents(__DIR__ . '../tests/fixtures/encoded.txt');
+$pnrSample = file_get_contents(__DIR__ . '/../tests/fixtures/encoded.txt');
 
 // You can create client in two ways
 // 1. Via constructor:
